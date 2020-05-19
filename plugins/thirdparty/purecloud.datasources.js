@@ -7,13 +7,8 @@
 (function () {
 	// ========= Genesys PureCloud notifications - OAuth credentials for this instance (Token Implicit Grant (Browser)) ============
 	// OAuth scope in Genesys cloud: alerting, analytics, authorization, conversations, presence, routing, users
-	const clientId = '45cadcce-c84d-42e5-bd42-b4c62a5357ca';
-	const redirectUri = 'http://localhost:8080/purecloudfreeboard/purecloud.html';
-	
-	// En ligne
-	//const clientId = '67bef101-b25f-4f8f-9cf3-510793a92540';
-	//const redirectUri = 'https://www.audaciel.com/avv/purecloudfreeboard/purecloud.html';
-	//const redirectUri = 'http://avv-audaciel.epizy.com/purecloudfreeboard/purecloud.html'; // Backup
+	const clientId = '7696de60-d282-4a21-91a6-b3adf60841c0';
+	const redirectUri = 'https://boborangesam.github.io/freeboardforpurecloud.github.io/purecloud.html';
 	
 	const clientEnvironment = 'mypurecloud.ie';
 	const appName = 'test_app';
